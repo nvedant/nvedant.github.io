@@ -1,0 +1,14 @@
+<nav>
+    <span class="nav-title">
+        {{ if ne .Type "page" }}
+        <span class="nav-single-title">vedant / </span> {{ .Title }}
+        {{ else }}
+        {{ "vedant" }}
+        {{end}}
+    </span>
+
+    <div class="nav-links">
+        <a href="/">home</a>
+        <a href="/notes">notes</a>
+    </div>
+</nav>
