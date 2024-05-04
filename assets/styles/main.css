@@ -1,58 +1,58 @@
 :root {
-    --primary-color: #5C695A;
-    --secondary-color: #A45E54;
+  --primary-color: #5C695A;
+  --secondary-color: #A45E54;
 }
 
 body {
-    font-family: "Inter", sans-serif;
-    max-width: 600px;
-    padding: 1rem;
+  font-family: "Inter", sans-serif;
+  max-width: 600px;
+  padding: 1rem;
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-links {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .main-container {
-    padding-block: 1rem;
+  padding-block: 1rem;
 }
 
 a {
-    color: #494547;
-    text-decoration: underline;
-    text-underline-offset: 2px;
+  color: #494547;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 a:hover {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .single-title {
-    font-weight: 500;
-    font-size: 1.1rem;
-    color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: var(--secondary-color);
 }
 
 .nav-title {
-    text-transform: lowercase;
+  text-transform: lowercase;
 }
 
 .nav-single-title {
-    color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
-pre {
-    padding: 1rem;
+.highlight {
+  border: 1px solid #ddd;
+  padding-inline: .8rem;
 }
 
 ul {
-    list-style: square;
+  list-style: square;
 }
+
