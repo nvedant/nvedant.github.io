@@ -1,0 +1,28 @@
+<header class='{{ if eq .Kind "section"}} list-header {{ end }}'>
+    <span>
+        {{ $equals := "" }}
+        {{ $title := "vedant" }}
+        {{ $length := 6 }}
+
+        {{ if isset .Params "title" }}
+            {{ $title = .Title }}
+            {{ $length = len .Title }}
+        {{ end }}
+
+        {{ if and .IsNode (ne .Name "_index") }}
+            {{ $title }}
+            {{ range seq $length }}
+                {{ $equals = print $equals "=" }}
+            {{ end }}
+        {{ else }}
+            # {{ $title }}
+        {{ end }}
+
+        <br />
+
+        {{ $equals }}
+    </span>
+    {{ if eq .Kind "section" }}
+    <a href="/"> {{"<back>"}} </a>
+    {{ end }}
+</header>

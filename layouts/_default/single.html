@@ -1,18 +1,13 @@
 {{ define "main" }}
 
-<article class="main-container">
+<article class="content-container">
     <header>
         {{ if ne .Type "page" }}
         <div>
             {{ if .Date }}
             <time>{{ .Date | time.Format ":date_medium" }}</time>
             {{ end }}<!---->
-            {{ $single_author := or .Params.Author site.Author.name }}
-            <!---->
-            {{ if $single_author }}
-            <span>&middot;</span>
-            <span>{{ $single_author }}</span>
-            {{ end }}
+            <a href="/notes">{{ "<back>" }}</a>
         </div>
         {{ end }}
     </header>
