@@ -3,8 +3,11 @@ languageCode = "en-us"
 title = "vedant"
 disableKinds = ["taxonomy", "term"]
 
-[params.author]
-name = "Vedant Nandwana"
+[params]
+  images = ['cover.png']
+  title = 'vedant'
+  [params.author]
+     name = "vedant nandwana"
 
 [markup]
   [markup.highlight]
