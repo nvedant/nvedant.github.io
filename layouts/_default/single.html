@@ -1,14 +1,14 @@
 {{ define "main" }}
 
-<article class="content-container">
+<article>
     <header>
         {{ if ne .Type "page" }}
         <div>
             {{ if .Date }}
             <time>{{ .Date | time.Format ":date_medium" }}</time>
             {{ end }}<!---->
-            <a href="/notes">{{ "<back>" }}</a>
         </div>
+        <a href="/notes">{{ "<back>" }}</a>
         {{ end }}
     </header>
 

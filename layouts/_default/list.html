@@ -1,14 +1,11 @@
 {{ define "main" }}
 <main>
-    <article>
-        <!-- "{{ .Content }}" pulls from the Markdown content of the corresponding _index.md -->
-        {{ .Content }}
-    </article>
+    {{ .Content }}
     <ul>
         {{ range .Pages }}
         <li>
             <a href="{{ .RelPermalink }}" class="date">
-                <span class="mute">{{.Date.Year}} / </span>
+                <span class="year">{{.Date.Year}} / </span>
                 {{.Date.Month}} {{.Date.Day}} - {{ .LinkTitle }}
             </a>
         </li>

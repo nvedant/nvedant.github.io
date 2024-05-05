@@ -20,10 +20,10 @@
     <meta name="author" content="{{ $site_author }}" />
     {{ end }}
 
-    {{ $style := resources.Get "styles/fonts.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    {{ $style := resources.Get "styles/fonts.css" }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 
-    {{ $style := resources.Get "styles/main.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    {{ $style := resources.Get "styles/main.css" }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 
     <!-- Math -->
