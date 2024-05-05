@@ -43,7 +43,7 @@ ul {
 
 /* custom styles */
 ::selection {
-    background-color: hsl(var(--subtle) / 20%);
+    background-color: hsla(var(--subtle), 20%);
 }
 
 body {
