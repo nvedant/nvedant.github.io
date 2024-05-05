@@ -1,6 +1,7 @@
 baseURL = "nvedant.github.io"
 languageCode = "en-us"
 title = "vedant"
+disableKinds = ["taxonomy", "term"]
 
 [params.author]
 name = "Vedant Nandwana"
@@ -9,7 +10,7 @@ name = "Vedant Nandwana"
   [markup.highlight]
     codeFences = true
     noClasses = true
-    style = 'algol_nu'
+    style = "algol_nu"
     tabWidth = 4
     
 
