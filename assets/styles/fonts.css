@@ -1,25 +1,6 @@
 @font-face {
-    font-family: "Inter";
-    src: url("/fonts/inter-regular.ttf") format("truetype");
+    font-family: "Iosevka";
+    src: url("/fonts/iosevka-regular.ttf") format("truetype");
     font-weight: 400;
 }
-
-@font-face {
-    font-family: "Inter";
-    src: url("/fonts/inter-medium.ttf") format("truetype");
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: "Inter";
-    src: url("/fonts/inter-semibold.ttf") format("truetype");
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: "Inter";
-    src: url("/fonts/inter-bold.ttf") format("truetype");
-    font-weight: 700;
-}
-
 
