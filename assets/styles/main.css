@@ -117,6 +117,10 @@ h3::before {
     justify-content: space-between;
 }
 
+.date {
+    text-transform: lowercase;
+}
+
 /* date */
 .date .year {
     color: hsla(var(--subtle), .5);
