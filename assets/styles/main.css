@@ -6,7 +6,7 @@
     --mute: 0, 0%, 80%;
 
     /* font related */
-    --root-font: "Iosevka", monospace;
+    --root-font: "Geist Mono", monospace;
 
     /* spacing */
     --root-padding: 1rem;
@@ -51,6 +51,7 @@ body {
     max-width: var(--root-max-width);
     padding: var(--root-padding);
     color: var(--black);
+    font-variant-ligatures: none;
 }
 
 ul {
